@@ -237,8 +237,8 @@
         axilSlickActivation: function(e) {
             $('.categrie-product-activation').slick({
                 infinite: true,
-                slidesToShow: 7,
-                slidesToScroll: 7,
+                slidesToShow: 5,
+                slidesToScroll: 1,
                 arrows: true,
                 dots: false,
                 autoplay: false,
@@ -439,8 +439,8 @@
                 arrows: true,
                 dots: false,
                 rtl: true,
-                prevArrow: '<button class="slide-arrow prev-arrow"><i class="fal fa-long-arrow-left"></i></button>',
-                nextArrow: '<button class="slide-arrow next-arrow"><i class="fal fa-long-arrow-right"></i></button>',
+                prevArrow: '<button class="slide-arrow prev-arrow"><i class="fal fa-long-arrow-right"></i></button>',
+                nextArrow: '<button class="slide-arrow next-arrow"><i class="fal fa-long-arrow-left"></i></button>',
                 responsive: [{
                         breakpoint: 1199,
                         settings: {
@@ -700,7 +700,7 @@
 
             $('.slider-thumb-activation-one').slick({
                 infinite: true,
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 arrows: false,
                 dots: true,
@@ -708,7 +708,6 @@
                 speed: 1000,
                 autoplay: false,
                 rtl: true,
-                asNavFor: '.slider-content-activation-one',
                 prevArrow: '<button class="slide-arrow prev-arrow"><i class="fal fa-long-arrow-left"></i></button>',
                 nextArrow: '<button class="slide-arrow next-arrow"><i class="fal fa-long-arrow-right"></i></button>',
                 responsive: [{
@@ -769,7 +768,6 @@
                 speed: 500,
                 fade: true,
                 autoplay: false,
-                asNavFor: '.slider-thumb-activation-one',
             });
 
             $('.slider-activation-one').slick({
